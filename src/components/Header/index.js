@@ -12,16 +12,16 @@ class Header extends Component {
         return (
             <nav className='nav-bar'>
                 <Link className="links" to="/">
-                    <h1>BookStore</h1>
+                    <h1 className='header-heading'>BookStore</h1>
                 </Link>
                 <div className='link-container'>
-                    <Link className='links' to="books">
+                    <Link className='links' to="/books">
                         <div className='link-to-booklist'>
                             <FaBook />
                             <span className='span-children'>BookList</span>
                         </div>
                     </Link>
-                    <Link className='links' to="cart">
+                    <Link className='links' to="/cart">
                         <div className='link-to-cart'>
                             <FaShoppingCart />
                             <span className='span-children'>Cart</span>
