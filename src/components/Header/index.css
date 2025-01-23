@@ -1,0 +1,49 @@
+.nav-bar {
+    background-color: yellow;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logout-button {
+    background-color: red;
+    border: 1px solid red;
+    outline: none;
+    cursor: pointer;
+    font-family: "Roboto";
+    border-radius: 10px;
+    height: 30px;
+    color: #fff;
+    margin: 10px;
+}
+.link-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.link-to-cart {
+    margin: 10px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
+.link-to-booklist {
+    margin: 10px;
+}
+.span-children {
+    display: none;
+}
+.links {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .span-children {
+        display: inline;
+        align-self: center;
+        margin-left: 5px;
+    }
+}
