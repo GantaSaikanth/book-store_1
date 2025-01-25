@@ -1,0 +1,12 @@
+.book-list-main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.products-loader-containers {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
